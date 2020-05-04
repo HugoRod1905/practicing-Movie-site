@@ -1,0 +1,69 @@
+{
+    "movies":[
+    {"name":"BATMAN ",
+       "id":0,
+       "imgUrl":"../IMAGES/batman1989.jpg"
+   },
+   {"name":"BREAKING BAD",
+   "id":1,
+   "imgUrl":"../IMAGES/breakingbad.jpg"
+},
+{"name":"A BUGS LIFE",
+   "id":2,
+   "imgUrl":"../IMAGES/bugslife.jpg"
+},
+{"name":"FORREST GUMP",
+   "id2":3,
+   "imgUrl":"../IMAGES/forrestgump.jpg"
+},
+{"name":"FRIENDS",
+   "id":4,
+   "imgUrl":"../IMAGES/friends.jpg"
+},
+{"name":"FROZEN",
+   "id":5,
+   "imgUrl":"../IMAGES/frozen.jpg"
+},
+{"name":"GAME OF THRONES",
+   "id":6,
+   "imgUrl":"../IMAGES/gameofthrone.jpg"
+},
+{"name":"AVENGERS INFINITY WAR",
+   "id":7,
+   "imgUrl":"../IMAGES/infinitywar.jpg"
+},
+{"name":"INSIDIOUS 2",
+   "id":8,
+   "imgUrl":"../IMAGES/insidious2.jpg"
+},
+{"name":"INTERSTELLAR",
+   "id":9,
+   "imgUrl":"../IMAGES/interstellar.jpg"
+},
+{"name":"JEEPERSCREEPERS",
+   "id":10,
+   "imgUrl":"../IMAGES/jeepers2.jpg"
+},
+{"name":"JURASIC PARK",
+   "id":11,
+   "imgUrl":"../IMAGES/jurassicpark.jpg"
+},
+{"name":"LETHAL WEAPON",
+   "id":12,
+   "imgUrl":"../IMAGES/lethal2.jpg"
+},
+{"name":"STAR WARS RISE OF SKY WALKER",
+   "id":13,
+   "imgUrl":"../IMAGES/riseofskywalker.jpg"
+},
+{"name":"ROCKY",
+   "id":14,
+   "imgUrl":"../IMAGES/rocky.jpg"
+},
+{"name":"THE HUNGER GAMES CATCHING FIRE",
+   "id":15,
+   "imgUrl":"../IMAGES/thehungergames.jpg",
+   "poster":"../POSTER/hungergames2.jpg"
+}
+    ]
+}

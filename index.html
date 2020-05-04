@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--CSS-->
+ <link rel="stylesheet" href="CSS/styles.css">
+ <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Oswald&display=swap" rel="stylesheet">
+ <script src="https://kit.fontawesome.com/bb736a9cab.js" crossorigin="anonymous"></script>
+    <!--END CSS-->
+</head>
+<body >
+    <header>
+            <div class="container">
+            <div class="logo">
+                <h1>MOVIE-TIME</h1>
+            </div>
+            <nav>
+                <a href="index.html" class="active">Home</a>
+                <a href="#" class="list">My List</a>
+                   <div class="list-container">
+                       <ul>
+                           <li>Release-Year</li>
+                           <li>My Top 10</li>
+                           <li>Continue Watching</li>
+                           <li>Top-Rated</li>
+                           <li>New Releases</li>
+                       </ul>
+                   </div>
+                <a href="#">Tv Shows</a>
+                <a href="#">Recently added</a>
+                <a href="#">All</a>
+                <button role="button" id="search-button"><i class="fas fa-search"></i></button>
+            </nav>
+            </div>
+    </header>
+
+
+    <main>
+        <!--SEARCH CONTAINER-->
+        <div class="search-container">
+            <div class="search-results" id="search-results">
+                <ul class="the-results" id="the-results" >
+
+                </ul>
+                <button role="button" class="close-search" id="close-search"><i class="fas fa-times"></i></button>
+                <input type="search" class="search-field" id="search-field"  placeholder="enter a title...">
+            </div>
+        </div>
+        <div class="main-movie">
+            <div class="container">
+               <div class="shadow"></div>
+                <video autoplay="true" loop muted  class="banner__video" id="banner-video">
+                    <source src="" type="video/webm">
+                    <source src="" type="video/mp4">
+                  </video>
+                
+                <div class="title">
+                    <h3 id="displayed-movie-title"></h3>
+                </div>
+                <button role="button" ><i class="fas fa-play" ></i>Play</button>
+                <button role="button"><i class="fas fa-info"></i>Info</button>
+            </div>
+        </div>
+
+        <div class="trending">
+            <h3>Trending now</h3>
+            <div class="container">
+            
+                <button role="button" class="left-arrow" id="left-arrow"><i class="fas fa-arrow-circle-left"></i></button>
+                <div class="carrousel-container">
+                    <div class="carrousel">
+                        <div class="movie">
+                            <a href="MOVIE_INFO/batman.html"><img src="IMAGES/batman1989.jpg" alt="Batman"></a>
+                           <h5 class="movie-title">Batman</h5>
+                           
+                        </div>
+                        <div class="movie">
+                           <a href="MOVIE_INFO/breakingbad.html"><img src="IMAGES/breakingbad.jpg" alt=""></a>
+                            <h5 class="movie-title">Breaking Bad</h5>
+                          
+                        </div>
+                        <div class="movie">
+                            <a href="MOVIE_INFO/abugslife.html"><img src="IMAGES/bugslife.jpg" alt=""></a>
+                            <h5>A Bug´s Life</h5>
+                            
+                        </div>
+                        <div class="movie">
+                            <img src="IMAGES/forrestgump.jpg" alt="">
+                            <h5>Forrest Gump</h5>
+                           
+                        </div>
+                        <div class="movie">
+                            <img src="IMAGES/friends.jpg" alt="">
+                            <h5>F.r.i.e.n.d.s</h5>
+                          
+                        </div>
+                        <div class="movie">
+                            <img src="IMAGES/frozen.jpg" alt="">
+                            <h5>Frozen</h5>
+                           
+                        </div>
+                        <div class="movie">
+                            <img src="IMAGES/infinitywar.jpg" alt="">
+                            <h5>Avengers Infinity War</h5>
+                           
+                        </div>
+                        <div class="movie">
+                            <img src="IMAGES/insidious2.jpg" alt="">
+                            <h5>Insidious 2</h5>
+                            
+                        </div>
+                        <div class="movie">
+                            <img src="IMAGES/jurassicpark.jpg" alt="">
+                            <h5>Jurassic Park</h5>
+                            
+                        </div>
+                        <div class="movie">
+                            <img src="IMAGES/riseofskywalker.jpg" alt="">
+                            <h5>Rise Of SkyWalker</h5>
+                            
+                        </div>
+                        <div class="movie">
+                            <img src="IMAGES/sinister.jpg" alt="">
+                            <h5>Sinister</h5>
+                            
+                        </div>
+                        <div class="movie">
+                            <img src="IMAGES/spiderhomecoming.jpg" alt="">
+                            <h5>Home Coming</h5>
+                           
+                        </div>
+                        <div class="movie">
+                            <img src="IMAGES/tbbt.jpg" alt="">
+                            <h5>TBBT</h5>
+                            
+                        </div>
+                        <div class="movie">
+                           <a href="../MOVIE_INFO/thehungergames2.html"><img src="IMAGES/thehungergames.jpg" id="thehunger-games2" alt=""></a>
+                            <h5>The Hunger Games</h5>
+                            
+                           
+                        </div>
+                        <div class="movie">
+                            <img src="IMAGES/thelionking.jpg" alt="">
+                            <h5>The Lion King</h5>
+                            
+                        </div>
+                        <div class="movie">
+                            <img src="IMAGES/thor.jpg" alt="">
+                            <h5>Thor</h5>
+                           
+                        </div>
+                        <div class="movie">
+                            <img src="IMAGES/titanic.jpg" alt="">
+                            <h5>Titanic</h5>
+                            
+                        </div>
+                        <div class="movie">
+                            <img src="IMAGES/twd.jpg" alt="">
+                            <h5>The Walking Dead</h5>
+                            
+                        </div>
+                        <div class="movie">
+                            <img src="IMAGES/gameofthrone.jpg" alt="">
+                            <h5>Game Of Thrones</h5>
+                           
+                        </div>
+                        <div class="movie">
+                            <img src="IMAGES/tarzan.jpg" alt="">
+                            <h5>Tarzan</h5>
+                            
+                        </div>
+                        <div class="movie">
+                            <img src="IMAGES/jeepers2.jpg" alt="">
+                            <h5>Jeepers Creepers 2</h5>
+                            
+                        </div>
+                        <div class="movie">
+                            <img src="IMAGES/interstellar.jpg" alt="">
+                            <h5>Interstellar</h5>
+                           
+                        </div>
+                        <div class="movie">
+                            <img src="IMAGES/rocky.jpg" alt="">
+                            <h5>Rocky</h5>
+                            
+                        </div>
+                        <div class="movie">
+                            <img src="IMAGES/lethal2.jpg" alt="">
+                            <h5>Lethal Weapon 2</h5>
+                           
+                        </div>
+                    </div>
+                </div>
+                <button role="button" class="right-arrow" id="right-arrow"><i class="fas fa-arrow-circle-right"></i></button>
+            </div>
+        </div>
+
+        <!---------------------------------------TV SHOWS--------------------------------------------------->
+        <div class="trending" >
+            <h3>Tv Shows</h3>
+            <div class="container">
+            
+                <button role="button" class="left-arrow" id="left-arrow-series"><i class="fas fa-arrow-circle-left"></i></button>
+                <div class="carrousel-container" id="carrousel-container-series">
+                    <div class="carrousel">
+                        <div class="movie" id="series">
+                            <img src="SERIES/breakingbad.jpg" alt="Batman">
+                           <h5 class="movie-title">Breaking Bad</h5>
+                          
+                        </div>
+                        <div class="movie" id="series">
+                            <img src="SERIES/friends.jpg" alt="">
+                            <h5 class="movie-title">F.r.i.e.n.d.s</h5>
+                            
+                        </div>
+                        <div class="movie" id="series">
+                            <img src="SERIES/gameofthrones.jpg" alt="">
+                            <h5>Game Of Thrones</h5>
+                            
+                        </div>
+                        <div class="movie" id="series">
+                            <img src="SERIES/riverdale.jpg" alt="">
+                            <h5>Riverdale</h5>
+                           
+                        </div>
+                        <div class="movie" id="series">
+                            <img src="SERIES/sonsofanarchy.jpg" alt="">
+                            <h5>Sons Of Anarchy</h5>
+                           
+                        </div>
+                        <div class="movie" id="series">
+                            <img src="SERIES/spongebob.jpg" alt="">
+                            <h5>Sponge Bob Square Pants</h5>
+                           
+                        </div>
+                        <div class="movie" id="series">
+                            <img src="SERIES/strangerthings.jpg" alt="">
+                            <h5>Stranger Things</h5>
+                           
+                        </div>
+                        <div class="movie" id="series">
+                            <img src="SERIES/thesimpsons.jpg" alt="">
+                            <h5>The Simpsons</h5>
+                           
+                        </div>
+                        <div class="movie" id="series">
+                            <img src="SERIES/twd.jpg" alt="">
+                            <h5>The Walking Dead</h5>
+                          
+                        </div>
+                        <div class="movie" id="series">
+                            <img src="SERIES/vampirediaries.jpg" alt="">
+                            <h5>Vampire Diaries</h5>
+                          
+                        </div>
+                        <div class="movie" id="series">
+                            <img src="SERIES/vikings.jpg" alt="">
+                            <h5>Vikings</h5>
+                           
+                        </div>
+                        <div class="movie" id="series">
+                            <img src="SERIES/adventuretime.jpg" alt="">
+                            <h5>Adventure Time</h5>
+                            
+                        </div>
+                        <div class="movie" id="series">
+                            <img src="SERIES/americanhorror.jpg" alt="">
+                            <h5>American Horror Story</h5>
+                           
+                        </div>
+                        <div class="movie" id="series">
+                            <img src="SERIES/futurama.jpg" alt="">
+                            <h5>Futurama</h5>
+                       
+                        </div>
+                        <div class="movie" id="series">
+                            <img src="SERIES/lost.jpg" alt="">
+                            <h5>Lost</h5>
+                          
+                        </div>
+                        <div class="movie" id="series">
+                            <img src="SERIES/preacher.jpg" alt="">
+                            <h5>Preacher</h5>
+                          
+                        </div>
+                        <div class="movie" id="series">
+                            <img src="SERIES/supernatural.jpg" alt="">
+                            <h5>Supernatural</h5>
+                            
+                        </div>
+                        <div class="movie" id="series">
+                            <img src="SERIES/tbbt.jpg" alt="">
+                            <h5>The Big Bang Theory</h5>
+                          
+                        </div>
+                        <div class="movie" id="series">
+                            <img src="SERIES/the100.jpg" alt="">
+                            <h5>The 100</h5>
+                           
+                        </div>
+                        <div class="movie" id="series">
+                            <img src="SERIES/arrow.jpg" alt="">
+                            <h5>Arrow</h5>
+                            
+                        </div>
+                        <div class="movie" id="series">
+                            <img src="SERIES/theflash.jpg" alt="">
+                            <h5>The Flash</h5>
+                          
+                        </div>
+                        <div class="movie" id="series">
+                            <img src="SERIES/chernobyl.jpg" alt="">
+                            <h5>Chernobyl</h5>
+                           
+                        </div>
+                        <div class="movie" id="series">
+                            <img src="SERIES/gravityfalls.jpg" alt="">
+                            <h5>Gravity Falls</h5>
+                           
+                        </div>
+                        <div class="movie" id="series">
+                            <img src="SERIES/thestrain.jpg" alt="">
+                            <h5>The Strain</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <button role="button" class="right-arrow" id="right-arrow-series"><i class="fas fa-arrow-circle-right"></i></button>
+            </div>
+        </div>
+
+
+
+       
+    <footer>
+        <div class="footer-content">
+            <ul>
+                <li>Privacy Policy</li>
+                <li>Privacy Policy</li>
+                <li>Privacy Policy</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </div>
+    </footer>
+       
+    </main>
+    <script src="JAVASCRIPT/app.js"></script>
+    <script src="JAVASCRIPT/MovieList.js"></script>
+    <script src="JAVASCRIPT/getID.js"></script>
+</body>
+</html>
