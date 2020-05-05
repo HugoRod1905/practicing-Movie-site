@@ -124,12 +124,3 @@ window.onload = function (){
     
     console.log(ran)
 }
-/*------------------------------------------ LIST ITEM -------------------------------------*/
-
-let nav_list = document.querySelector(".list")
-let list_container = document.querySelector(".list-container")
-nav_list.addEventListener("click",()=>{
-  if(list_container.style.display = "none"){
-   list_container.style.display="block";
-  }
-})

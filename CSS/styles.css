@@ -55,7 +55,8 @@ header .container nav a{
     color: #cdd0d4;
     text-decoration: none;
     margin-right: 20px; 
-
+    padding-bottom: 35px;
+   
 
 }
 
@@ -65,32 +66,50 @@ header .container nav a.active
      color: #fff;
 }
 
+@keyframes list-animation{
+    from{height: 0px;}
+    to{height: 200px;}
+}
+
 .list-container{
    position: absolute;
    width: 250px;
-   height: 191px;
-   color:gray;
+   height: 0px;
+   color:#fff;
    background-color:black;
    margin-left: -35px;
    margin-top: 21px;
-   border: solid 0.2px gray;
-   opacity: .9;
+
    display: none;
+   animation-name: list-animation;
+   animation-duration: 1s;
+   animation-fill-mode: forwards;
 }
+
+
 
 .list-container li{
    display: flex;
-   justify-content: center;
    margin-top: 10px;
-   border-bottom: solid 0.2px gray;
+   margin-left: 0px;
+   justify-content: center;
    padding-bottom: 10px;
    cursor: pointer;
    opacity: .9;
 }
 
 .list-container li:hover{
-    color:#fff;
+    color:gray;
+    font-size: 1.1em;
     border-bottom: solid 0.2px #044;
+}
+
+.list:hover .list-container{
+    display: block;
+} 
+
+.js-is-hidden{
+    display: none;
 }
 /*----------------------------------------------------MAIN MOVIE-----------------------------------------------------------*/
  .main-movie{
